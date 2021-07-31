@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding:0px;
+    /* It makes every class to inherit the box-sizing: ;
+    box-sizing: inherit; */
+    box-sizing: border-box;
+}
+html{
+    /* It is 62.5% of the default font size i.e, ingenral it is set to 16px until user changes it  */
+    /* This what defines 1rem */
+    font-size: 62.5%;
+}
+body{
+
+    box-sizing: border-box;
+}
+
+/* @media(max-width:2200px){
+    html{
+        font-size:70%;
+    }
+}
+@media(max-width:1500px){
+    html{
+        font-size:62.5%;
+    }
+}
+@media(max-width:1200px){
+    html{
+        font-size:55%
+    }
+}
+@media(max-width:900px){
+    html{
+        font-size:45%;
+    }
+}
+@media(max-width:600px){
+    html{
+        font-size: 35%;
+    }
+}
+@media(max-width:400px){
+    html{
+        font-size: 25%;
+    }
+} */
+
+
+
+
+
+

@@ -1,0 +1,126 @@
+.row1,.row2,.row3,.row4,.row5,.row6{
+    max-width: 114rem;
+    /* background-color: #eee; */
+    margin: 0 auto;
+    margin-bottom: 8rem;
+}
+.row6{
+    margin-bottom: 0rem;
+}
+.row1 .col-1-of-2{
+    width:54rem;
+    /* background-color: orangered; */
+    margin-right: 6rem;
+    float:left;
+}
+.row1 .col-1-of-2:last-child{
+    margin-right: 0rem ;
+}
+.row1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row2 .col-1-of-3{
+    width:34rem;
+    /* background-color: orangered; */
+    margin-right: 6rem;
+    float:left;
+}
+.row2 .col-1-of-3:last-child{
+    margin-right: 0rem ;
+}
+.row2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row3 .col-1-of-3{
+    width:36rem;
+    /* background-color: orangered; */
+    margin-right: 6rem;
+    float:left;
+}
+
+.row3 .col-2-of-3{
+    width:72rem;
+    background-color: orangered;
+    margin-right: 6rem;
+    float:left;
+}
+.row3 .col-2-of-3:last-child{
+    margin-right: 0rem;
+}
+.row3::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.row3::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row4 .col-1-of-4{
+    width:24rem;
+    /* background-color: orangered; */
+    margin-right: 6rem;
+    float:left;
+}
+.row4 .col-1-of-4:last-child{
+    margin-right: 0rem ;
+}
+.row4 .col-1-of-4:last-child{
+    margin-right: 0rem;
+}
+.row4::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row5 .col-1-of-4{
+    width:25.5rem;
+    background-color: orangered;
+    margin-right: 6rem;
+    float:left;
+}
+.row5 .col-2-of-4{
+    width:51rem;
+    background-color: orangered;
+    margin-right: 6rem;
+    float:left;
+}
+.row5 .col-2-of-4:last-child{
+    margin-right: 0rem;
+}
+.row5::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row6 .col-1-of-4{
+    width:27rem;
+    background-color: orangered;
+    margin-right: 6rem;
+    float:left;
+}
+
+.row6 .col-3-of-4{
+    width:81rem;
+    background-color: orangered;
+    margin-right: 6rem;
+    float:left;
+}
+.row6 .col-3-of-4:last-child{
+    margin-right: 0rem ;
+}
+.row6::after{
+    content: "";
+    display: table;
+    clear: both;
+}
