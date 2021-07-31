@@ -1,0 +1,31 @@
+
+.header{
+    height: 95vh;
+    background-image:linear-gradient(to right bottom,rgba(135, 221, 120, 0.80),rgba(39, 180, 133, 0.80)) ,url(../../img/hero.jpg) ;
+    background-size:cover;
+    /* backgroung position is used i.e, if we set it to top while minimizing and maximizing the tab tak it crops at bottom*/
+    background-position: top;
+    /* Here the position is set to relative to use it in children classes */
+    position: relative; 
+
+    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+}
+.header__logo-box{
+    position: absolute;
+    top:4rem;
+    left:4rem;
+}
+.header__logo{
+    /* Width is sacled with the given height */
+    height: 3.5rem;
+}
+.header__text-box{
+    /* herw the top and left are w.r.t to parent element*/
+    position:absolute;
+    top:50%;
+    left:50%;
+    /* This translateproperty applies to the text-box it self i.e, -50% mean 50% of the width or height of the text-box so translates moves it 50% of the box size in a particular directtion */
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
